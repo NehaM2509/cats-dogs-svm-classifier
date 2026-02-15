@@ -58,3 +58,11 @@ if uploaded_file is not None:
 
 st.markdown("---")
 st.markdown("Built with using SVM + HOG + Streamlit")
+
+st.markdown("---")
+st.subheader("Model Performance")
+
+st.write("Final Model Accuracy: ~71%")
+
+st.image("confusion_matrix.png", caption="Confusion Matrix")
+
