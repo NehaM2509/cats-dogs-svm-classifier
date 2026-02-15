@@ -1,0 +1,6 @@
+dataset/
+dogs-vs-cats/
+*.zip
+*.jpg
+*.png
+__pycache__/
